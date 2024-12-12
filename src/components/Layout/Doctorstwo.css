@@ -1,0 +1,61 @@
+.doctotrstwo-banner {
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  background: url("https://heal-responsibly.com/wp-content/uploads/2020/08/33f72-adobestock_224173795.jpeg");
+  background-size: cover;
+  margin-top: 6rem;
+}
+.dctstwo-btn {
+  width: 10rem;
+  height: 3rem;
+  background-color: #fe5f55;
+  border: none;
+  color: white;
+  border-radius: 1rem;
+  margin-left: 35rem;
+  margin-top: 4rem;
+  
+
+}
+.doctotrstwo-banner  h1,h2{
+  text-align: center;
+ 
+}
+.years-experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.years-firstrow{
+    display: flex;
+    gap: 3rem;
+}
+.years-secondrow{
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+}
+@media (max-width: 780px) {
+  .dctstwo-btn {
+    width: 15rem;
+    margin-left: 1rem;
+    margin-top: 0;
+  }
+  .years-firstrow{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+ .years-secondrow{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+ }
+ .doctotrstwo-banner {
+  margin-top: 1rem;
+ }
+}

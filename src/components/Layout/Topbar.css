@@ -1,0 +1,46 @@
+.topbar-container {
+  display: flex;
+  width: 100%;
+  height: 5vh;
+  background-color: #207dff;
+  align-items: center;
+  justify-content: space-around;
+  /* gap: 6rem; */
+  color: white;
+}
+.call {
+  font-size: 1rem;
+}
+.topbar-contact h3 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.topbar-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.topbar-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12rem;
+}
+.topbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+ 
+}.topbar-right h5{
+  font-size: 1rem;
+  font-weight: 300;
+
+}
+
+@media (max-width: 780px) {
+  .topbar-container {
+    display: none;
+  }
+}

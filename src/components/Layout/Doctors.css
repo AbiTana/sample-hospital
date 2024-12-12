@@ -1,0 +1,45 @@
+.doctors-container {
+  min-height: 60vh;
+  text-align: center;
+  padding-top: 5rem;
+
+}
+
+.dct-img {
+  width: 16rem;
+  height: 16rem;
+}
+.doctors-container h3,
+p,
+h5 {
+  text-align: center;
+}
+.doctor-imgs {
+  display: flex;
+}
+.doctors-booknow-btn {
+  width: 6rem;
+  height: 2rem;
+  background-color: #458df3;
+  border-radius: 15px;
+  border: none;
+
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .doctor-imgs {
+    display: flex;
+    flex-direction: column;
+  }
+  .doctors-container {
+    padding-top: 0;
+  }
+  .doctors-container h1,
+  p {
+    padding-bottom: 1rem;
+  }
+  .doctors-booknow-btn {
+    margin-bottom: 1rem;
+  }
+}

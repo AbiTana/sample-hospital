@@ -1,0 +1,61 @@
+.contacttwo-container {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  gap: 10rem;
+  text-align: center;
+
+}
+
+.contacttwoimg {
+  width: 50%;
+  height: 40remrem;
+  padding-left: 1rem;
+}
+.form-contacttwo-container{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+    
+}
+.form1{
+    width: 20rem;
+    height: 2.7rem;
+}
+.msg{
+    width: 20rem;
+    height: 7rem;
+
+}
+.send-contacttwobtn{
+    width: 16.5rem;
+    height: 3rem;
+    background-color: #fe5f55;
+    border-radius: 1.4rem;
+    border: none;
+    color: white;
+    
+}
+@media (max-width: 780px) {
+    .contacttwoimg {
+        width: 16rem;
+        height: 13rem;
+    }
+    .contacttwo-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .form1{
+        width: 15rem;
+        height: 3rem;
+    }
+    .msg{
+        width: 15rem;
+        height: 7rem;
+    
+    }
+}

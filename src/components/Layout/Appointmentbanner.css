@@ -1,0 +1,11 @@
+.appointment-container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: red;
+    background: url("https://www.thehealthy.com/wp-content/uploads/2017/09/02_doctor_Insider-Tips-to-Choosing-the-Best-Primary-Care-Doctor_519507367_Stokkete.jpg");
+    background-size: cover;
+    color: black;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}

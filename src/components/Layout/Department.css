@@ -1,0 +1,72 @@
+/* .department-container {
+  width: 100%;
+  display: flex;
+} */
+
+.firstrow-dept {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  /* padding-top: 2rem; */
+}
+.deprt-img {
+  width: 30rem;
+  height: 100vh;
+  /* margin-top: 3rem; */
+  /* border: 1px solid red; */
+}
+.main-departments {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  /* gap: 1rem; */
+  align-items: center;
+  justify-content: center;
+}
+.doctoricon {
+  font-size: 3rem;
+}
+.all-departments {
+  height: 100vh;
+  /* border: 1px solid; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: center;
+  /* gap: 1rem; */
+}
+.Neurology {
+  /* border: 1px solid red; */
+  height: 12rem;
+  width: 16.1rem;
+  text-align: center;
+}
+.Neurology:hover{
+  background-color: #207dff;
+  color: white;
+}
+@media (max-width: 768px) {
+  .firstrow-dept {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    padding-top: 1rem;
+  }
+  .all-departments {
+    height: 100%;
+  }
+  .main-departments {
+    display: flex;
+    flex-direction: column;
+  }
+  .firstrow-dept {
+    text-align: center;
+  }
+
+  .deprt-img {
+    width: 16.2rem;
+    height: 16rem;
+    padding-left: 0.5rem;
+  }
+}
